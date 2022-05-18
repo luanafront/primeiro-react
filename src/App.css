@@ -1,0 +1,8 @@
+.primeiro__site--react {
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+h1, h2{
+  margin: 0;
+  color:rgb(93, 16, 164);
+}
