@@ -3,11 +3,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
   align-items: center;
 }
 .imagem {
   height: 50px;
+  margin-top: 30px;
 }
 .titulo {
   color: rgb(146, 55, 231);
@@ -27,4 +28,8 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+}
+.imagem__github {
+  height: 30px;
+  margin-top: 300px;
 }

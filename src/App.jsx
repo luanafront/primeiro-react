@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import imagemReact from "./react.png"
+import imagemGithub from "./github.png"
 
 function App() {
   const [contador, incrementarContador] = useState(0)
@@ -25,6 +26,12 @@ function App() {
         <Button onClick={aumentar} variant="contained" color="secondary"  size="small">Aumentar</Button>
         <Button onClick={diminuir} variant="contained" color="secondary"  size="small">Diminuir</Button>
       </div>
+      <footer className="rodape">
+        <a href="https://github.com/luanafront/primeiro-react" class="link__imagem">
+          <img alt="github" className='imagem__github' src={imagemGithub}/>
+        </a>
+       
+      </footer>
     </div>
   );
 }
