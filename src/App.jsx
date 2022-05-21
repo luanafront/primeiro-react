@@ -16,11 +16,11 @@ function App() {
   const diminuir = () => {
     incrementarContador(contador-1)
   }
-  let listaProdutos = [
-    {preco: 2.00, nome: "luana"},
-    {preco: 3.00, nome: "Nick"},
-    {preco: 4.00, nome: "ana"}
-  ]
+  // let listaProdutos = [
+  //   {preco: 2.00, nome: "luana"},
+  //   {preco: 3.00, nome: "Nick"},
+  //   {preco: 4.00, nome: "ana"}
+  // ]
 
   return (
     <div className="primeiro__site--react">
@@ -28,7 +28,7 @@ function App() {
       <h1 className="titulo">Olá Mundo! &nbsp;{<VolunteerActivismIcon/>}</h1>
       <h2 className="subtitulo">Este é meu primeiro site usando React</h2>
 
-      <Luana nome = "luana"/>
+      {/* <Luana nome = "luana"/>
       <Luana nome = "churros"/>
       <ul>
         {listaProdutos.map((produto) =>{
@@ -36,7 +36,7 @@ function App() {
             <Churros preco={produto.preco} nome={produto.nome}/>
           )
         })}
-      </ul>
+      </ul> */}
 
       <p className="numeracao">{contador}</p>
       <div className='botoes'>
