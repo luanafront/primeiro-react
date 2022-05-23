@@ -16,11 +16,11 @@ function App() {
   const diminuir = () => {
     incrementarContador(contador-1)
   }
-  // let listaProdutos = [
-  //   {preco: 2.00, nome: "luana"},
-  //   {preco: 3.00, nome: "Nick"},
-  //   {preco: 4.00, nome: "ana"}
-  // ]
+  let listaProdutos = [
+    {preco: 2.00, nome: "luana"},
+    {preco: 3.00, nome: "Nick"},
+    {preco: 4.00, nome: "ana"}
+  ]
 
   return (
     <div className="primeiro__site--react">
